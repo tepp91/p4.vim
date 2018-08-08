@@ -56,9 +56,9 @@ this_path = vim.eval('expand("<sfile>:p:h")')
 if not(this_path in sys.path):
 	sys.path.insert(0, this_path)
 
-from source import history
-from source import diff
-from source import workspace
+from p4 import history
+from p4 import diff
+from p4 import workspace
 PY3END
 " }}}
 
